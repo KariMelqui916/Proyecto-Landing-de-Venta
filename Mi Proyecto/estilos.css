@@ -1,0 +1,408 @@
+
+*{
+    margin: 0vw;
+    padding: 0vw;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 0vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(175, 134, 250);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 20vw;
+    margin-left: 5vw;
+}
+.enca a{
+    font-weight: 600;
+    padding-right: 1vw;
+}
+.enca a:hover{
+    color: rgb(153, 98, 255);
+}
+header{
+    display: flex;
+    height: 0vw;
+    width: 99vw;
+    background-color: rgb(140, 0, 255);
+    justify-content: space-between;
+    padding: 3vw;
+    margin-top: 0vw;
+}
+
+.nombre{
+    font-family: "hello honey - Personal Use";
+    font-size: 3em;
+    margin: 1vw;
+}
+.nav{
+    font-family: "Caviar Dreams";
+}
+button{
+    background-color: blueviolet;
+    padding: 0vw 0vw;
+    border: 0vw;
+    margin-top: 1vw;
+    bottom: 3vw;
+    right: 0vw;
+    margin-left: 0vw;
+    border-radius: 0vw 1vw 1vw 0vw;
+    color: aliceblue;
+    cursor: pointer;
+    width: 3vw;
+    height: 2.5vw;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, / .2);
+}
+.buscar{
+    width: 1vw;
+    height: 1vw;
+    margin-top: .1vw;
+    margin-left: 0vw;
+
+}
+.ico{
+    width: 5vw;
+    height: 3.2vw;
+}
+.icos{
+    width: 3vw;
+    height: 3vw;
+    margin-right: 2vw;
+}
+.icono{
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-top: .4vw;
+}
+.a{
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 5vw  white;
+}
+
+/*jumbotron*/
+
+.jumbo{
+    display: flex;
+}
+input{
+    width: 25vw;
+    height: 2.5vw;
+    padding: 0vw;
+    padding-right: 3vw;
+    border-radius: 1vw 0vw 0vw 1vw;
+    border: 0vw;
+    outline: none;
+    margin-left: 55vw;
+    margin-top: 1vw;
+    text-align: center;
+}
+.contenedor{
+    margin-left: 5vw;
+    margin-top: 5vw;
+    display: flex;
+    width: 90vw;
+    height: 45vw;
+
+}
+.contenedor .prinsi{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+
+}
+.contenedor .prinsi:hover{
+    cursor: pointer;
+    width: 20vw;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.contenedor p{
+    font-family: "hello honey - Personal Use";
+    font-size: 6em;
+    color: white;
+    position: absolute;
+    top: 38vw;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 0 8px black;
+    
+}
+
+/*blog*/
+
+.post{
+    display: flex;
+    margin-top: 0vw;
+    margin-bottom: 10vw;
+    align-items: center;
+    justify-content: center;
+    padding: 20vw 20vw;
+}
+.content{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2vw;
+    max-width: 1000px;
+    margin: auto;
+}
+.img-1{
+    background: url(x10.webp);
+    width: 20vw;
+    height: 20vw;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.img-2{
+    background: url(m3.jpg);
+    width: 20vw;
+    height: 20vw;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.img-3{
+    background: url(a6.jpg);
+    width: 20vw;
+    height: 20vw;
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+.list{
+    box-shadow: 0 1px 8px rgb(0, 0, 0);
+    transition: .2s;
+}
+
+.list:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 3px 34px 2px rgb(0, 0, 0);
+}
+
+.header{
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+}
+
+.list:hover .imag-1.
+.list:hover .imag-2.
+.list:hover .imag-3.{
+    transform: scale(1.2);
+}
+.body{
+    padding: 15px;
+    text-align: center;
+}
+
+.body span{
+    display: inline-block;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.body h2{
+    margin-bottom: 15px;
+}
+.body p{
+    line-height: 1.45;
+    margin-bottom: 20px;
+    font-family: "Caviar Dreams";
+}
+.titu{
+    font-family: "hello honey - Personal Use";
+    font-size: 3em;
+}
+.body .post{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    background: blue;
+    color: aliceblue;
+    width: 50%;
+    margin: auto;
+    border: 20px;
+    box-shadow: 1px 2px 6px 1px rgb(0, 0, .1);
+    transition: .2s;
+}
+
+.body .post:hover{
+    background-color: aqua;
+    box-shadow: 3px 2px 6px 1px;
+}
+.link{
+    border: solid .1vw black;
+    border-radius: 1vw;
+}
+
+/*adicionales*/
+
+.otros{
+    margin: 5vw;
+    display: flex;
+}
+.otro{
+   border-radius: 2vw;
+   margin: 1vw;
+}
+.textos {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    text-shadow: 0vw 0vw 10px rgb(255, 255, 255);
+    font-family: "Blantick Script";
+    font-size: 2.5em;
+	
+}
+.contenedor-acc {
+	width: 100%;
+    display: flex;
+	flex-wrap: wrap;
+	gap: 20px; 
+    justify-content: center;
+}
+
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	width: 30%; 
+    height: 20vw;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: .4s;
+    cursor: pointer;
+}
+.otro{
+    width: 17vw;
+    height: 25vw;
+    margin: .5vw;
+    text-align: center;
+}
+
+/*footer*/
+
+.conten{
+    max-width 100%;
+    margin: 1vw 1vw;
+ 
+ }
+ .footer{
+   background-color: rgb(140, 0, 255);
+   padding: 25vw;
+   height: 50vw;
+   padding-bottom: 0vw;
+   padding-top: 1vw;
+ }
+ .fotcon{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ .div{
+     width: 10vw;
+     padding: 5vw;
+ }
+ .div .h4{
+     font-size: 2vw;
+     color: aliceblue;
+     margin-bottom: 2vw;
+     font-weight: 500;
+     font-family: "hello honey - Personal Use";
+     border-bottom: 2px solid rgb(89, 0, 255);
+     padding-bottom: 10px;
+     display: inline-block;
+ }
+ .div ul li a{
+     font-size: 15px;
+     text-decoration: none;
+     color: aliceblue;
+     display: block;
+     margin-bottom: 20px;
+     transition: all .3s ease;
+ }
+ 
+ .div ul li a:hover{
+     color: aliceblue;
+     padding-left: 10px;
+ }
+ .social a{
+     display: inline-block;
+     min-height: 0vw;
+     width: 0vw;
+     background-color: rgb(215, 24, 233);
+     margin: 0 10px 10px 0;
+     text-align: center;
+     line-height: 40px;
+     border-radius: 5vw;
+     color: aliceblue;
+     transition: all .5s ease;
+ }
+ .rs{
+     width: 4vw;
+     height: 4vw;
+     border-radius: 4vw;
+     flex-wrap: wrap;
+ }
+ .social
+ .social a:hover{
+     background-color: cyan;
+ }
+ @media(max-width:991px){
+    .fotcon{
+     text-align: center;
+    }
+    .div{
+     width: 100px;
+     margin-bottom: 40px;
+ 
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
